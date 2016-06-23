@@ -20,6 +20,8 @@
 	    padding: 14px;
 	    width: 31%;
 	    text-decoration: none;
+	    transition: background 0.5s ease-in-out;
+    transition:.5s;
 		}
 
 	li a:hover:not(.active) 
