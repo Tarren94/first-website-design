@@ -1,0 +1,45 @@
+	ul.nav	{
+    	list-style-type: none;
+   		margin: 0;
+    	padding: 0;
+    	overflow: hidden;
+    	background-color: white;
+		}
+
+	li a {
+    	float: left;
+		}
+
+	li a
+		{
+	    display: block;
+	    font-family: sans-serif;
+	    font-weight: bold;
+	    color: #E0E0E0;
+	    text-align: center;
+	    padding: 14px;
+	    width: 31%;
+	    text-decoration: none;
+		}
+
+	li a:hover:not(.active) 
+		{
+	    background-color: #E0E0E0;
+	    color: white;
+		}
+
+	li a.active 
+		{
+	    color: white;
+	    background-color: #E0E0E0;
+		}
+
+		
+		.homeimg{
+		position: fixed;
+		left: 38%;
+		bottom: 38%;
+		}
+
+
+
