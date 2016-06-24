@@ -15,25 +15,25 @@
 	    display: block;
 	    font-family: sans-serif;
 	    font-weight: bold;
-	    color: #E0E0E0;
+	    color: #F0E68C;
 	    text-align: center;
 	    padding: 14px;
-	    width: 31%;
+	    width: 410px;
 	    text-decoration: none;
 	    transition: background 0.5s ease-in-out;
-    transition:.5s;
+    	transition:.5s;
 		}
 
 	li a:hover:not(.active) 
 		{
-	    background-color: #E0E0E0;
+	    background-color: #F0E68C;
 	    color: white;
 		}
 
 	li a.active 
 		{
 	    color: white;
-	    background-color: #E0E0E0;
+	    background-color: #F0E68C;
 		}
 
 		
@@ -42,6 +42,90 @@
 		left: 38%;
 		bottom: 38%;
 		}
+	h2.name {
+		text-align: center;
+		font-size: 35px;
+		font-family: arial;
+		}
+
+	aside.sidepanel {
+		font-family: arial;
+		float: left;
+		padding: 30px;
+	}
+
+	a.date {
+		padding-left: 300px;
+	}
+
+	a.date2 {
+		padding-left: 210px;
+	}
+
+	a.date3 {
+		padding-left: 470px;
+	}
+
+	a.date4 {
+		padding-left: 470px;
+	}
+	a.date5 {
+		padding-left: 537px;
+	}
+	a.date6 {
+		padding-left: 475px;
+	}
+
+	ul.container {
+		float:left;
+		list-style-type: none;
+		border-radius: 5px;
+	    background-color: white;
+	    padding: 20px;
+	    width: 500px;
+	}
 
 
+	input[type=text], select {
+	    width: 450px;
+	    padding: 12px 10px;
+	    margin: 3px 0;
+	    display: inline-block;
+	    border: 1px solid #F0E68C;
+	    border-radius: 4px;
+	
+	}
 
+	input[type=submit] {
+	    width: 30%;
+	    background-color: white;
+	    font-family: arial;
+	    font-style: bold;
+	    color: #F0E68C;
+	    padding: 14px 20px;
+	    margin: 8px 0;
+	    border: none;
+	    border-radius: 4px;
+	    transition: background 0.5s ease-in-out;
+    	transition:.5s;
+	}
+
+	    
+
+	}
+
+	input[type=submit]:hover {
+	    background-color: #F0E68C;
+
+	}
+
+	textarea {
+		width: 530px;
+		height: 153px;
+		padding: 12px 10px;
+	    margin: 3px 0;
+	    display: inline-block;
+	    border: 1px solid #F0E68C;
+	    border-radius: 4px;
+	}
+		
